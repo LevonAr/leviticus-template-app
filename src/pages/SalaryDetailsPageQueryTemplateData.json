@@ -1,0 +1,719 @@
+{
+  "data": {
+    "aggregatedSalaryEstimates": {
+      "__typename": "AggregatedSalaryEstimates",
+      "availableYearsOfExperience": null,
+      "estimateSourceName": "V3",
+      "estimateSourceUpdateTime": "2025-07-01T13:10:18.380",
+      "mostRecent": "2025-07-01T13:10:18.380",
+      "queryLocation": {
+        "__typename": "Country",
+        "id": 1,
+        "longName": "United States of America",
+        "name": "United States",
+        "seoAlias": "United States",
+        "shortName": "US"
+      },
+      "results": [
+        {
+          "__typename": "AggregatedSalaryEstimatesResult",
+          "basePayStatistics": {
+            "__typename": "StatisticsResult",
+            "percentiles": [
+              {
+                "__typename": "Percentile",
+                "ident": "P10",
+                "value": 172945.4
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P25",
+                "value": 193809.03
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P50",
+                "value": 219978.59
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P75",
+                "value": 249681.75
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P90",
+                "value": 279802.64
+              }
+            ]
+          },
+          "cashBonusStatistics": {
+            "__typename": "StatisticsResult",
+            "percentiles": [
+              {
+                "__typename": "Percentile",
+                "ident": "P10",
+                "value": 22595.56
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P25",
+                "value": 29218.4
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P50",
+                "value": 38957.86
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P75",
+                "value": 54353.11
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P90",
+                "value": 71292.89
+              }
+            ]
+          },
+          "confidence": "CONFIDENT",
+          "currency": {
+            "__typename": "Currency",
+            "code": "USD",
+            "id": 1,
+            "name": "United States Dollar",
+            "numOfDecimals": 2,
+            "symbol": "$"
+          },
+          "employer": {
+            "__typename": "Employer",
+            "id": 9079,
+            "name": "Google Inc.",
+            "shortName": "Google"
+          },
+          "jobTitle": {
+            "__typename": "JobTitle",
+            "gocId": 100063,
+            "id": 17959,
+            "mgocId": 10132,
+            "sgocId": 1007,
+            "text": "Senior Software Engineer"
+          },
+          "payPeriod": "ANNUAL",
+          "profitSharingStatistics": {
+            "__typename": "StatisticsResult",
+            "percentiles": []
+          },
+          "salaryCount": 3544,
+          "salesCommissionStatistics": {
+            "__typename": "StatisticsResult",
+            "percentiles": []
+          },
+          "stockBonusStatistics": {
+            "__typename": "StatisticsResult",
+            "percentiles": [
+              {
+                "__typename": "Percentile",
+                "ident": "P10",
+                "value": 83865.3
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P25",
+                "value": 108446.51
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P50",
+                "value": 144595.34
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P75",
+                "value": 202433.48
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P90",
+                "value": 264609.48
+              }
+            ]
+          },
+          "tipsStatistics": {
+            "__typename": "StatisticsResult",
+            "percentiles": []
+          },
+          "totalAdditionalPayStatistics": {
+            "__typename": "StatisticsResult",
+            "percentiles": [
+              {
+                "__typename": "Percentile",
+                "ident": "P10",
+                "value": 106460.86
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P25",
+                "value": 137664.9
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P50",
+                "value": 183553.2
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P75",
+                "value": 256786.59
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P90",
+                "value": 335902.36
+              }
+            ]
+          },
+          "totalPayStatistics": {
+            "__typename": "StatisticsResult",
+            "percentiles": [
+              {
+                "__typename": "Percentile",
+                "ident": "P10",
+                "value": 279406.26
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P25",
+                "value": 331473.93
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P50",
+                "value": 403531.79
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P75",
+                "value": 506468.34
+              },
+              {
+                "__typename": "Percentile",
+                "ident": "P90",
+                "value": 615705
+              }
+            ]
+          }
+        }
+      ],
+      "salaryCount": 3544
+    },
+    "salaryLocationsSG": {
+      "__typename": "SalaryLocations",
+      "countries": [
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x60b;"
+          },
+          "id": 7,
+          "name": "Afghanistan",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "$"
+          },
+          "id": 15,
+          "name": "Argentina",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "$"
+          },
+          "id": 16,
+          "name": "Australia",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 18,
+          "name": "Austria",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 25,
+          "name": "Belgium",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "R$"
+          },
+          "id": 36,
+          "name": "Brazil",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "$"
+          },
+          "id": 3,
+          "name": "Canada",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x5143;"
+          },
+          "id": 48,
+          "name": "China",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 62,
+          "name": "Cyprus",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "kr"
+          },
+          "id": 63,
+          "name": "Denmark",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "LE"
+          },
+          "id": 69,
+          "name": "Egypt",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 79,
+          "name": "Finland",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 86,
+          "name": "France",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 96,
+          "name": "Germany",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 100,
+          "name": "Greece",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "HK$"
+          },
+          "id": 106,
+          "name": "Hong Kong",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "Ft"
+          },
+          "id": 111,
+          "name": "Hungary",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x20B9;"
+          },
+          "id": 115,
+          "name": "India",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "Rp"
+          },
+          "id": 113,
+          "name": "Indonesia",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 70,
+          "name": "Ireland",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x20aa;"
+          },
+          "id": 119,
+          "name": "Israel",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 120,
+          "name": "Italy",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&yen;"
+          },
+          "id": 123,
+          "name": "Japan",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "RM"
+          },
+          "id": 170,
+          "name": "Malaysia",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "MXN$"
+          },
+          "id": 169,
+          "name": "Mexico",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x20ae;"
+          },
+          "id": 155,
+          "name": "Mongolia",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 178,
+          "name": "Netherlands",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x20a9;"
+          },
+          "id": 177,
+          "name": "Nigeria",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "Php"
+          },
+          "id": 204,
+          "name": "Philippines",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x7a;&#x142;"
+          },
+          "id": 193,
+          "name": "Poland",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 195,
+          "name": "Portugal",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x434;&#x435;&#x43d;"
+          },
+          "id": 159,
+          "name": "Republic of Macedonia",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "lei"
+          },
+          "id": 203,
+          "name": "Romania",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x0420;&#x0420;"
+          },
+          "id": 205,
+          "name": "Russia",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x414;&#x438;&#x43d;&#x2e;"
+          },
+          "id": 200,
+          "name": "Serbia",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "$"
+          },
+          "id": 217,
+          "name": "Singapore",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 144,
+          "name": "Slovakia",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 214,
+          "name": "Slovenia",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "R"
+          },
+          "id": 211,
+          "name": "South Africa",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x20a9;"
+          },
+          "id": 135,
+          "name": "South Korea",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&euro;"
+          },
+          "id": 219,
+          "name": "Spain",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x20a8;"
+          },
+          "id": 45,
+          "name": "Sri Lanka",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "kr"
+          },
+          "id": 223,
+          "name": "Sweden",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "CHF"
+          },
+          "id": 226,
+          "name": "Switzerland",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "NT$"
+          },
+          "id": 240,
+          "name": "Taiwan",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x20a4;"
+          },
+          "id": 238,
+          "name": "Turkey",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&#x20b4;"
+          },
+          "id": 244,
+          "name": "Ukraine",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": ""
+          },
+          "id": 6,
+          "name": "United Arab Emirates",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "&pound;"
+          },
+          "id": 2,
+          "name": "United Kingdom",
+          "salaryCount": null
+        },
+        {
+          "__typename": "Country",
+          "currency": {
+            "__typename": "Currency",
+            "symbol": "$"
+          },
+          "id": 1,
+          "name": "United States",
+          "salaryCount": null
+        }
+      ]
+    }
+  },
+  "loading": false,
+  "networkStatus": 7
+}
